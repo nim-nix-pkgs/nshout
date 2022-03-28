@@ -11,7 +11,6 @@
   inputs.src-nshout-master.ref   = "refs/heads/master";
   inputs.src-nshout-master.owner = "Senketsu";
   inputs.src-nshout-master.repo  = "nshout";
-  inputs.src-nshout-master.dir   = "";
   inputs.src-nshout-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
